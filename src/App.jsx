@@ -14,7 +14,7 @@ const App = () => {
         'fun',
         'anger inducing',
         'expensive',
-        '$70 is too much for a video game',
+        '$70 is too much fdsjkfhdsjkfe',
       ],
     },
     {
@@ -23,7 +23,7 @@ const App = () => {
         'https://images.unsplash.com/photo-1545093149-618ce3bcf49d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80',
       attributes: [
         'you are not looking at a taco',
-        'it is not a taco',
+        'it is nfdsdsfaco',
         'your eyes are deceiving you',
         'farewell',
       ],
@@ -57,7 +57,7 @@ const App = () => {
       <Route path="/" element={<Landing />} />
       <Route
         path="/the-manliest-things"
-        element={<ManliestThings things={bensThings} />}
+        element={<ManliestThings things={eugenesThings} />}
       />
       <Route
         path="/the-well-styled-things"
