@@ -64,7 +64,7 @@ const App = () => {
       <Route path="/" element={<Landing />} />
       <Route
         path="/the-manliest-things"
-        element={<ManliestThings things={eugenesThings} />}
+        element={<ManliestThings things={bensThings} />}
       />
       <Route
         path="/the-well-styled-things"
@@ -77,7 +77,5 @@ const App = () => {
     </Routes>
   )
 }
-
-console.log('ligma')
 
 export default App
