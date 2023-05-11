@@ -1,22 +1,7 @@
-import { Routes, Route } from 'react-router-dom'
-import ManliestThings from './pages/ManliestThings/ManliestThings'
-import StyledThings from './pages/StyledThings/StyledThings'
-import SillyThings from './pages/SillyThings/SillyThings'
-import Landing from './pages/Landing/Landing'
+
 
 const App = () => {
-  const eugenesThings = [
-    {
-      name: 'video games',
-      image:
-        'https://imgs.xkcd.com/comics/coffee.png',
-      attributes: [
-        'fun',
-        'anger inducing',
-        'expensive',
-        '$70 is too much for a video game',
-      ],
-    },
+
     {
       name: 'this is not a taco',
       image:
@@ -51,24 +36,5 @@ const App = () => {
     },
   ]
 
-  return (
-    <Routes>
-      {/* All the <Route> components should live here */}
-      <Route path="/" element={<Landing />} />
-      <Route
-        path="/the-manliest-things"
-        element={<ManliestThings things={eugenesThings} />}
-      />
-      <Route
-        path="/the-well-styled-things"
-        element={<StyledThings things={dawsonsThings} />}
-      />
-      <Route
-        path="/the-silly-things"
-        element={<SillyThings things={stephensThings} />}
-      />
-    </Routes>
-  )
-}
 
 export default App
