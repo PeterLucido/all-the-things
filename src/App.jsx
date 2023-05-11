@@ -5,33 +5,33 @@ import SillyThings from './pages/SillyThings/SillyThings'
 import Landing from './pages/Landing/Landing'
 
 const App = () => {
-  const bensThings = [
+  const eugenesThings = [
     {
-      name: 'banana',
+      name: 'video games',
       image:
-        'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+        'https://imgs.xkcd.com/comics/coffee.png',
       attributes: [
-        'potassium-rich',
-        'yellow when good',
-        'not a taco',
-        'ring ring ring ring ring ring ring',
+        'fun',
+        'anger inducing',
+        'expensive',
+        '$70 is too much for a video game',
       ],
     },
     {
-      name: 'taco',
+      name: 'this is not a taco',
       image:
         'https://images.unsplash.com/photo-1545093149-618ce3bcf49d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80',
       attributes: [
-        'yummy in my tummy',
-        'salsas may vary',
-        'definitely a taco',
-        'very edible',
+        'you are not looking at a taco',
+        'it is not a taco',
+        'your eyes are deceiving you',
+        'farewell',
       ],
     },
     {
-      name: 'linux',
+      name: 'idk what this picture is but we will find out',
       image: 'https://i.imgur.com/3BmfSOA.png',
-      attributes: ['not a taco', 'not Windows', 'not macOS', 'Penguins?'],
+      attributes: ['what', 'is', 'this', 'Picture?'],
     },
   ]
 
