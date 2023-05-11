@@ -1,8 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
-import ManliestThings from './pages/ManliestThings/ManliestThings'
-import StyledThings from './pages/StyledThings/StyledThings'
-import SillyThings from './pages/SillyThings/SillyThings'
-import Landing from './pages/Landing/Landing'
+
 
 const App = () => {
   const bensThings = [
