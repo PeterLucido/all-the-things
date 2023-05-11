@@ -71,7 +71,7 @@ const App = () => {
   )
 }
 
-console.log('this some hot dick ass')
+console.log('Lets Fix things')
 
 
 
