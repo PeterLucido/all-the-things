@@ -35,23 +35,12 @@ const App = () => {
     },
   ]
 
-  const davidsThings = [
+  const dawsonsThings = [
     {
-      name: 'waffle',
-      image:
-        'https://images.unsplash.com/photo-1568051243851-f9b136146e97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80',
-      attributes: ['tasty', 'fluffy', 'breakfast', 'yummy'],
-    },
-    {
-      name: 'Liam',
-      image: 'https://i.imgur.com/l2qX34X.jpg',
-      attributes: ['fluffy', 'happy', 'sleepy', 'dumb'],
-    },
-    {
-      name: 'Poptart®',
-      image: 'https://i.imgur.com/q9zgcaP.jpg',
-      attributes: ['pastry?', 'food?', 'edible?', 'Horrible when toasted!'],
-    },
+      name: 'brown',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/1200px-Flag_of_Turkey.svg.png',
+      attributes: ['fat'],
+    }
   ]
 
   const stephensThings = [
@@ -72,7 +61,7 @@ const App = () => {
       />
       <Route
         path="/the-well-styled-things"
-        element={<StyledThings things={davidsThings} />}
+        element={<StyledThings things={dawsonsThings} />}
       />
       <Route
         path="/the-silly-things"
