@@ -24,7 +24,7 @@ const App = () => {
       attributes: [
         'you are not looking at a taco',
         'it is nfdsdsfaco',
-        'your eyes are deceiving you',
+    
         'farewell',
       ],
     },
