@@ -31,7 +31,7 @@ const App = () => {
     },
   ]
 
-  const dawsonsThings = [
+  const davidsThings = [
     {
       name: 'waffle',
       image:
@@ -68,7 +68,7 @@ const App = () => {
       />
       <Route
         path="/the-well-styled-things"
-        element={<StyledThings things={dawsonsThings} />}
+        element={<StyledThings things={davidsThings} />}
       />
       <Route
         path="/the-silly-things"
