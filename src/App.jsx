@@ -14,7 +14,7 @@ const App = () => {
         'fun',
         'anger inducing',
         'expensive',
-        '$70 is too much for this games yeah',
+        '$70 is too much for a video game',
       ],
     },
     {
