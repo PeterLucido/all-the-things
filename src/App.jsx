@@ -71,4 +71,6 @@ const App = () => {
   )
 }
 
+console.log('ligma')
+
 export default App
