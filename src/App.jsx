@@ -50,11 +50,11 @@ const App = () => {
     },
   ]
 
-  const stephensThings = [
+  const huntersThings = [
     {
-      name: "canadians",
-      image: "https://imgs.xkcd.com/comics/canada.png",  
-      attributes: ["hockey","metric","loonie","its spelled colour"],
+      name: "energy drinks",
+      image: "https://imgs.xkcd.com/comics/health_drink_2x.png",  
+      attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ]
 
@@ -72,7 +72,7 @@ const App = () => {
       />
       <Route
         path="/the-silly-things"
-        element={<SillyThings things={stephensThings} />}
+        element={<SillyThings things={huntersThings} />}
       />
     </Routes>
   )
